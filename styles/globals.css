@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(241, 241, 241);
 }
 
 a {
@@ -13,4 +14,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.about-us-video {
+  position: absolute;
+  z-index: 0;
+  background-size: 100% 100%;
+  top: 0px;
+  left: 0px; /* fixed to left. Replace it by right if you want.*/
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
